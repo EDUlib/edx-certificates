@@ -37,6 +37,8 @@ from bidi.algorithm import get_display
 import arabic_reshaper
 
 from opaque_keys.edx.keys import CourseKey
+from opaque_keys import InvalidKeyError
+from opaque_keys.edx.locations import SlashSeparatedCourseKey
 
 reportlab.rl_config.warnOnMissingFontGlyphs = 0
 
