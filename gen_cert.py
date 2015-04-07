@@ -36,6 +36,9 @@ from boto.s3.key import Key
 from bidi.algorithm import get_display
 import arabic_reshaper
 
+from opaque_keys.edx.keys import CourseKey
+from opaque_keys import InvalidKeyError
+from opaque_keys.edx.locations import SlashSeparatedCourseKey
 
 reportlab.rl_config.warnOnMissingFontGlyphs = 0
 
@@ -233,15 +236,16 @@ class CertificateGen(object):
             log.critical("Unable to lookup long names for course {0}".format(course_id))
             raise
 
-        # split the org and course from the course_id
-        # if COURSE or ORG is set in the configuration
-        # dictionary, use that instead
-        # tmp_org, tmp_course, tmp_run = course_id.split('/')
-        tmp_org = ''
-        tmp_course = ''
-        tmp_run = '' 
-        self.course = cert_data.get('COURSE', tmp_course)
-        self.org = cert_data.get('ORG', tmp_org)
+        # if COURSE or ORG is set in the configuration attempt to parse using
+        # new style course_keys and fallback to using from_deprecated_string
+        # upon failure
+        try:
+            course_key = CourseKey.from_string(course_id)
+        except InvalidKeyError:
+            course_key = SlashSeparatedCourseKey.from_deprecated_string(course_id)
+
+        self.course = cert_data.get('COURSE', course_key.course)
+        self.org = cert_data.get('ORG', course_key.org)
 
         # get the template version based on the course settings in the
         # certificates repo, with sensible defaults so that we can generate
