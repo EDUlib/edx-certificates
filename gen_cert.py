@@ -447,7 +447,8 @@ class CertificateGen(object):
         styleOpenSansLight.textColor = colors.Color(0.302, 0.306, 0.318)
         styleOpenSansLight.alignment = TA_LEFT
 
-        paragraph_string = "CERTIFICATE"
+        #paragraph_string = "CERTIFICATE"
+        paragraph_string = "CERTIFICAT"
 
         # Right justified so we compute the width
         width = stringWidth(
@@ -468,7 +469,8 @@ class CertificateGen(object):
             0.302, 0.306, 0.318)
         styleOpenSansLight.alignment = TA_LEFT
 
-        paragraph_string = "Issued {0}".format(self.issued_date)
+        #paragraph_string = "Issued {0}".format(self.issued_date)
+        paragraph_string = "émis le {0}".format(self.issued_date)
 
         # Right justified so we compute the width
         width = stringWidth(
@@ -489,7 +491,8 @@ class CertificateGen(object):
             0.302, 0.306, 0.318)
         styleOpenSansLight.alignment = TA_LEFT
 
-        paragraph_string = "This is to certify that"
+        #paragraph_string = "This is to certify that"
+        paragraph_string = "Ce document certifie que"
         paragraph = Paragraph(paragraph_string, styleOpenSansLight)
         paragraph.wrapOn(c, WIDTH * mm, HEIGHT * mm)
         paragraph.drawOn(c, LEFT_INDENT * mm, 132.5 * mm)
@@ -535,11 +538,13 @@ class CertificateGen(object):
             0.302, 0.306, 0.318)
         styleOpenSansLight.alignment = TA_LEFT
 
-        paragraph_string = "successfully completed"
+        #paragraph_string = "successfully completed"
+        paragraph_string = "a complété avec succès"
         if '7.00x' in self.course:
             paragraph_string = "successfully completed the inaugural offering of"
         else:
-            paragraph_string = "successfully completed"
+            #paragraph_string = "successfully completed"
+            paragraph_string = "a complété avec succès"
 
         paragraph = Paragraph(paragraph_string, styleOpenSansLight)
 
@@ -595,9 +600,13 @@ class CertificateGen(object):
             0.302, 0.306, 0.318)
         styleOpenSansLight.alignment = TA_LEFT
 
-        paragraph_string = "a course of study offered by <b>{0}</b>" \
-                           ", an online learning<br /><br />initiative of " \
-                           "<b>{1}</b> through <b>edX</b>.".format(
+        #paragraph_string = "a course of study offered by <b>{0}</b>" \
+        #                   ", an online learning<br /><br />initiative of " \
+        #                   "<b>{1}</b> through <b>edX</b>.".format(
+        #                       self.org, self.long_org.decode('utf-8'))
+        paragraph_string = "un cours offert par <b>{0}</b>" \
+                           ", une initiative d'apprentissage en ligne offert par <br /><br />" \
+                           "<b>{1}</b> utilisant la plateforme <b>Open edX</b>.".format(
                                self.org, self.long_org.decode('utf-8'))
 
         paragraph = Paragraph(paragraph_string, styleOpenSansLight)
@@ -612,8 +621,12 @@ class CertificateGen(object):
             0.302, 0.306, 0.318)
         styleOpenSansLight.alignment = TA_CENTER
 
-        paragraph_string = "HONOR CODE CERTIFICATE<br/>" \
-            "*Authenticity of this certificate can be verified at " \
+        #paragraph_string = "HONOR CODE CERTIFICATE<br/>" \
+        #    "*Authenticity of this certificate can be verified at " \
+        #    "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
+        #    "{verify_url}/{verify_path}/{verify_uuid}</a>"
+        paragraph_string = "CERTIFICAT SUR LE CODE D'HONNEUR<br/>" \
+            "*L'authenticité de ce certificat peut être vérifié à " \
             "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
             "{verify_url}/{verify_path}/{verify_uuid}</a>"
 
