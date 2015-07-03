@@ -609,10 +609,11 @@ class CertificateGen(object):
         #                   ", an online learning<br /><br />initiative of " \
         #                   "<b>{1}</b> through <b>edX</b>.".format(
         #                       self.org, self.long_org.decode('utf-8'))
-        paragraph_string = "un cours offert par <b>{0}</b>" \
-                           ", une initiative d'apprentissage en ligne offert par <br /><br />" \
-                           "<b>{1}</b> utilisant la plateforme <b>Open edX</b>.".format(
-                               self.org, self.long_org.decode('utf-8'))
+        #paragraph_string = "un cours offert par <b>{0}</b>" \
+        #                   ", une initiative d'apprentissage en ligne offert par <br /><br />" \
+        #                   "<b>{1}</b> utilisant la plateforme <b>Open edX</b>.".format(
+        #                       self.org, self.long_org.decode('utf-8'))
+        paragraph_string = ""
 
         paragraph = Paragraph(paragraph_string, styleOpenSansLight)
         paragraph.wrapOn(c, WIDTH * mm, HEIGHT * mm)
