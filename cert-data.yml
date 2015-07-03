@@ -1,8 +1,17 @@
 ---
+edX/Open_DemoX/edx_demo_course:
+  COURSE: MKT101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Cours Test
+  ISSUED_DATE: '11 mai 2015'
+
 edX/DemoX/Demo_Course:
-  ISSUED_DATE: Jan. 1st, 1970
-  LONG_COURSE: Sample course with some utf-8 char like è
-  LONG_ORG: Sample Org
+  COURSE: MKT101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Cours Test
+  ISSUED_DATE: '11 mai 2015'
 
 edX/DemoX_v3/Demo_Course_v3:
   LONG_ORG: Sample Org v3
@@ -11,3 +20,30 @@ edX/DemoX_v3/Demo_Course_v3:
   interstitial:
     Pass: 'This person passed.'
     Distinction: 'This person is a complete overachiever!'
+
+course-v1:Umontreal+Cert101+H2015:
+  COURSE: Cert101
+  ORG: UMontreal
+  LONG_COURSE: Intro aux Certificats
+  LONG_ORG: UMontreal
+  ISSUED_DATE: '8 avril 2015'
+
+course-v1:UMontreal+Test02+course:
+  COURSE: TESTRGL 
+  ORG: UMontreal
+  LONG_COURSE:  Tests RGL
+  LONG_ORG: UMontreal
+  ISSUED_DATE: '9 juin 2015'
+
+HEC/HEC101/Hiver2015:
+  COURSE: HEC101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Cours Test
+
+HEC/MKT-101/H2015:
+  COURSE: MKT101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Cours Test
+  ISSUED_DATE: '11 mai 2015'
