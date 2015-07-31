@@ -573,7 +573,8 @@ class CertificateGen(object):
             styleOpenSans.fontSize = 20
             styleOpenSans.leading = 10
         else:
-            styleOpenSans.fontSize = 24
+            #styleOpenSans.fontSize = 24
+            styleOpenSans.fontSize = 18
             styleOpenSans.leading = 10
         styleOpenSans.textColor = colors.Color(
             0, 0.624, 0.886)
