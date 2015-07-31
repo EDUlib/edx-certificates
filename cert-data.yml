@@ -1,4 +1,11 @@
 ---
+course-v1:HEC+ENT-102.1b+E2015:
+  COURSE: ENT-102.1
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Synop
+  ISSUED_DATE: '28 juillet 2015'
+
 edX/Open_DemoX/edx_demo_course:
   COURSE: MKT101
   ORG: HEC
