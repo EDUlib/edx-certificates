@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="fr">
 <head>
  <meta charset="UTF-8">
  <title>Validate the {CERTS_ARE_CALLED}</title>
@@ -8,86 +8,86 @@
 <body class="verify">
 
   <header>
-    <h1>OpenEdX</h1>
+    <h1>EDUlib</h1>
   </header>
 
   <section>
     <section class="introduction">
       <p>
-        The {CERTS_ARE_CALLED_PLURAL} issued by OpenEdX are signed by a 
-        <a href="http://www.gnupg.org">gpg</a> key so that
-        they can be validated independently by anyone who has
-        the correct OpenEdX public key.  For independent verification OpenEdX uses 
-        what is called a "detached signature",
-        meaning that the signature for the certificate is contained in
-        a separate file with a ".sig" extension.  
+        Les certificats émis pas EDUlib sont signés par une clé  
+        <a href="http://www.gnupg.org">gpg</a> de façon
+        à ce qu'ils puissent être validés indépendamment par quiconque
+        possède la clé publique EDUlib.  Pour la vérification indépendante, EDUlib utilise 
+        ce qui est appelée une "signature détachée", ce qui signifie
+        que la signature du certificat est contenue dans un fichier distinct
+        se terminant avec l'extension ".sig".
       </p>
 
       <p>
-        To complete the verification procedure you will need the following
-        three files:
+        Afin de compléter la procédure de vérification, vous aurez besoin des trois fichiers
+        suivants:
         <ul>
-          <li>The <a href="{VERIFY_URL}/openedx.pub">official openedx instance public key</a>.</li>
-          <li>The OpenEdX {CERTS_ARE_CALLED} belonging to {NAME} (you should already have this file).</li>
-          <li>The <a href="{SIG_URL}">signature file</a> for {NAME}'s {CERTS_ARE_CALLED}</li>
+          <li>La <a href="{VERIFY_URL}/openedx.pub">clé publique officielle pour EDUlib</a>.</li>
+          <li>Le certificat EDUlib appartenant à {NAME} (vous devriez déjà avoir ce fichier).</li>
+          <li>Le <a href="{SIG_URL}">fichier de signature</a> pour le certificat de {NAME}</li>
         </ul>
       </p>
 
       <p> 
-        Ensure you have the pdf, the ".sig" signature file and the public key 
-        copied to a single directory before you begin.
+        Assurez-vous d'avoir les fichiers pdf, .sig et la clé publique dans un même répertoire
+        avant de débuter.
       </p>
     </section>
 
     <section class="instruction">
       <header>
-        <h1>Import the public key on OSX using GPG Keychain</h1>
+        <h1>Importer le clé publique EDUlib sous OSX en utilisant GPG Keychain</h1>
       </header>
 
       <ul>
-        <li><p>Download and install <a href="http://www.gpgtools.org/installer/index.html">gpgtools</a>.</p></li>
-        <li><p>After installation, GPG Keychain Access will prompt for a new personal keypair.</p>
-          <p><img class="ss" src="/images/osxgpg-new-keypair.png" alt="new keypair" /></p>
+        <li><p>Télécharger et installer <a href="http://www.gpgtools.org/installer/index.html">gpgtools</a>.</p></li>
+        <li><p>Après l'installation, GPG Keychain Access va vous demander une nouvelle paire de clés personnelle.</p>
+          <p><img class="ss" src="/images/osxgpg-new-keypair.png" alt="nouvelle paire de clés" /></p>
         </li>
-        <li><p>Click the import icon to import the public key file, <i>openedx.pub</i>.</p></li>
-        <li><p>CTRL-click the public key and select "sign" to validate it.</p>
-          <p><img class="ss" src="/images/osxgpg-sign-key.png" alt="sign key"/></p></li>
-          <li><p>Confirm that the public key is listed in the GPG Keychain Access window and it has Short ID {CERT_KEY_ID}.</p>
-        <img class="ss" src="/images/osxgpg-key-list.png" alt="sign key"/></li>
+        <li><p>Cliquer l'icône d'importation afin d'importer le fichier contenant la clé publique, <i>EDUlib.pub</i>.</p></li>
+        <li><p>CTRL-cliquer la clé publique et sélectionner "sign" afin de la valider.</p>
+          <p><img class="ss" src="/images/osxgpg-sign-key.png" alt="signer la clé"/></p></li>
+          <li><p>Confirmer que la clé publique est affichéee dans la fenêtre du GPG Keychain Access et qu'elle a bien le Short ID {CERT_KEY_ID}.</p>
+        <img class="ss" src="/images/osxgpg-key-list.png" alt="signer la clé"/></li>
     </ul>
   </section>
 
   <section class="instruction">
 
     <header>
-      <h1>Import the edX public key on Microsoft Windows using gpg4win</h1>
+      <h1>Importer la clé publique EDUlib sous Windows en utilisant gpg4win</h1>
     </header>
 
     <ul>
-      <li><p>Download and install the full version of <a href="http://www.gpg4win.org/download.html">gpg4win</a>.</p></li>
-      <li><p>After the installation is complete, launch Kleapatra from the start menu.</p></li>
-      <li><p>Create a new personal certificate if don't have one listed under "My Certificates". </p>
-        <p><img class="ss" src="/images/wingpg-new-cert.png" alt="new certificate" /> </p></li>
-      <p>When prompted, select "Create personal OpenPGP key pair."</p>
-      <p><img class="ss" src="/images/wingpg-new-cert2.png" alt="new certificate" /></p> </li>
-      <li><p>Import the public key file, <i>openedx.pub</i> by clicking on the "Import Certificate" icon.</p></li>
-    <li><p>Certify the public key by highlighting the new public key/certificate and selecting "Certify Certificate" under the "Certificates" menu.</p>
-      <p><img class="ss" src="/images/wingpg-certify-cert.png" alt="certify certificate" /></p> </li>
-    <li><p>Make sure that the public key/certificate is listed under the "Trusted Certificates" tab and verify it has the Key-ID {CERT_KEY_ID}.</p>
-      <p><img class="ss" src="/images/wingpg-verify-cert.png" alt="verify the certificate" /></p> </li>
+      <li><p>Télécharger et installer la version complète de <a href="http://www.gpg4win.org/download.html">gpg4win</a>.</p></li>
+      <li><p>Après que l'installation soit terminée, démarrez Kleapatra à partir du menu Démarrer (Start menu).</p></li>
+      <li><p>Créer un nouveau certificat personnel si vous n'en avez déjà pas un affiché sous "My Certificates" ou "Mes Certificats". </p>
+        <p><img class="ss" src="/images/wingpg-new-cert.png" alt="nouveau certificat" /> </p></li>
+      <p>Lorsque vous y êtes invité,, selectionnez "Create personal OpenPGP key pair."</p>
+      <p><img class="ss" src="/images/wingpg-new-cert2.png" alt="nouveau certificat" /></p> </li>
+      <li><p>Importer le fichier contenant la clé publique, <i>EDUlib.pub</i> en cliquant sur l'icône "Import Certificate".</p></li>
+    <li><p>Certifiez la clé publique en soulignant la nouvelle clé publique / certificat et en sélectionnant "Certify Certificate" sous le menu "Certificates".</p>
+      <p><img class="ss" src="/images/wingpg-certify-cert.png" alt="certifier le certificat" /></p> </li>
+    <li><p>Assurez-vous que la clé publique / certificat est énuméré sous l'onglet "Trusted Certificates" et vérifiez qu'il a le  Key-ID {CERT_KEY_ID}.</p>
+      <p><img class="ss" src="/images/wingpg-verify-cert.png" alt="verifier le certificat" /></p> </li>
   </ul>
 </section>
 
 <section>
   <header>
-    <h1>Verify the edX certificate using gpg on both OSX and Windows</h1>
+    <h1>Vérifier le certificat EDUlib en utilisant gpg sous OSX et sous Windows</h1>
   </header>
   <ul>
-    <li>Open up a new terminal on OSX or a command window on Windows</li>
-    <li>Go into the directory where the .sig and .pdf files are located</li>
-    <li>Run the following command to verify the fingerprint of the edx key</li>
+    <li>Ouvrir une nouvelle instance du terminal sous OSX ou une fenêtre de commandes Windows</li>
+    <li>Allez dans le répertoire où vous avez déposé les fichiers .sig et .pdf</li>
+    <li>Exécutez la commande suivante afin de vérifier l'empreinte de la clé EDUlib</li>
         <pre>gpg --verify {SIG_FILE} {PDF_FILE}</pre>
-    <li>Confirm that "Good signature from "OpenEdX Example &lt;techsupport@example.com&gt;" is reported by gpg</li>
+    <li>Confirmez que gpg indique bien qu'il s'agit d'une bonne signature pour « EDUlib <oper.edulib@gmail.com> » [inconnu]</li>
   </ul>
 </section>
   </section>
