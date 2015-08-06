@@ -725,8 +725,21 @@ class CertificateGen(object):
         # New things below
 
         # STYLE: typeface assets
-        addMapping('AvenirNext-Regular', 0, 0, 'AvenirNext-Regular')
-        addMapping('AvenirNext-DemiBold', 1, 0, 'AvenirNext-DemiBold')
+        #####addMapping('AvenirNext-Regular', 0, 0, 'AvenirNext-Regular')
+        #####addMapping('AvenirNext-DemiBold', 1, 0, 'AvenirNext-DemiBold')
+
+        # 0 0 - normal
+        # 0 1 - italic
+        # 1 0 - bold
+        # 1 1 - italic and bold
+        addMapping('OpenSans-Light', 0, 0, 'OpenSans-Light')
+        addMapping('OpenSans-Light', 0, 1, 'OpenSans-LightItalic')
+        addMapping('OpenSans-Light', 1, 0, 'OpenSans-Bold')
+
+        addMapping('OpenSans-Regular', 0, 0, 'OpenSans-Regular')
+        addMapping('OpenSans-Regular', 0, 1, 'OpenSans-Italic')
+        addMapping('OpenSans-Regular', 1, 0, 'OpenSans-Bold')
+        addMapping('OpenSans-Regular', 1, 1, 'OpenSans-BoldItalic')
 
         # STYLE: grid/layout
         LEFT_INDENT = 23  # mm from the left side to write the text
