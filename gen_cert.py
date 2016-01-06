@@ -631,7 +631,7 @@ class CertificateGen(object):
         #    "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
         #    "{verify_url}/{verify_path}/{verify_uuid}</a>"
         paragraph_string = "ATTESTATION SUR LE CODE D'HONNEUR<br/>" \
-            "*L'authenticité de ce certificat peut être vérifié à " \
+            "*L'authenticité de cette attestation peut être vérifié à " \
             "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
             "{verify_url}/{verify_path}/{verify_uuid}</a>"
 
