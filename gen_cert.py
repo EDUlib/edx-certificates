@@ -453,7 +453,8 @@ class CertificateGen(object):
         styleOpenSansLight.alignment = TA_LEFT
 
         #paragraph_string = "CERTIFICATE"
-        paragraph_string = "CERTIFICAT"
+        #paragraph_string = "CERTIFICAT"
+        paragraph_string = "ATTESTATION"
 
         # Right justified so we compute the width
         width = stringWidth(
@@ -497,7 +498,8 @@ class CertificateGen(object):
         styleOpenSansLight.alignment = TA_LEFT
 
         #paragraph_string = "This is to certify that"
-        paragraph_string = "Ce document certifie que"
+        #paragraph_string = "Ce document certifie que"
+        paragraph_string = "Ce document atteste que"
         paragraph = Paragraph(paragraph_string, styleOpenSansLight)
         paragraph.wrapOn(c, WIDTH * mm, HEIGHT * mm)
         paragraph.drawOn(c, LEFT_INDENT * mm, 132.5 * mm)
@@ -632,7 +634,7 @@ class CertificateGen(object):
         #    "*Authenticity of this certificate can be verified at " \
         #    "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
         #    "{verify_url}/{verify_path}/{verify_uuid}</a>"
-        paragraph_string = "CERTIFICAT SUR LE CODE D'HONNEUR<br/>" \
+        paragraph_string = "ATTESTATION SUR LE CODE D'HONNEUR<br/>" \
             "*L'authenticité de ce certificat peut être vérifié à " \
             "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
             "{verify_url}/{verify_path}/{verify_uuid}</a>"
