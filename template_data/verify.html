@@ -14,12 +14,12 @@
   <section>
     <section class="introduction">
       <p>
-        Les certificats émis pas EDUlib sont signés par une clé  
+        Les attestations émises par EDUlib sont signées par une clé  
         <a href="http://www.gnupg.org">gpg</a> de façon
-        à ce qu'ils puissent être validés indépendamment par quiconque
+        à ce qu'elles puissent être validées indépendamment par quiconque
         possède la clé publique EDUlib.  Pour la vérification indépendante, EDUlib utilise 
         ce qui est appelée une "signature détachée", ce qui signifie
-        que la signature du certificat est contenue dans un fichier distinct
+        que la signature de l'attestation est contenue dans un fichier distinct
         se terminant avec l'extension ".sig".
       </p>
 
@@ -28,7 +28,7 @@
         suivants:
         <ul>
           <li>La <a href="{VERIFY_URL}/openedx.pub">clé publique officielle pour EDUlib</a>.</li>
-          <li>Le certificat EDUlib appartenant à {NAME} (vous devriez déjà avoir ce fichier).</li>
+          <li>L'attestation EDUlib appartenant à {NAME} (vous devriez déjà avoir ce fichier).</li>
           <li>Le <a href="{SIG_URL}">fichier de signature</a> pour le certificat de {NAME}</li>
         </ul>
       </p>
@@ -80,7 +80,7 @@
 
 <section>
   <header>
-    <h1>Vérifier le certificat EDUlib en utilisant gpg sous OSX et sous Windows</h1>
+    <h1>Vérifier l'attestation EDUlib en utilisant gpg sous OSX et sous Windows</h1>
   </header>
   <ul>
     <li>Ouvrir une nouvelle instance du terminal sous OSX ou une fenêtre de commandes Windows</li>
