@@ -51,7 +51,7 @@ CERT_KEY_ID = 'FEF8D954'
 # CERT_KEY_ID = ''
 
 # Specify the default name of the certificate PDF
-CERT_FILENAME = 'Certificate.pdf'
+CERT_FILENAME = 'Attestation.pdf'
 
 # Specify these credentials before running the test suite
 # or ensure that your .boto file has write permission
