@@ -51,7 +51,7 @@ logging.config.dictConfig(settings.LOGGING)
 log = logging.getLogger('certificates.' + __name__)
 S3_CERT_PATH = 'downloads'
 S3_VERIFY_PATH = getattr(settings, 'S3_VERIFY_PATH', 'cert')
-####TARGET_FILENAME = getattr(settings, 'CERT_FILENAME', 'Certificate.pdf')
+#####TARGET_FILENAME = getattr(settings, 'CERT_FILENAME', 'Certificate.pdf')
 TARGET_FILENAME = getattr(settings, 'CERT_FILENAME', 'Attestation.pdf')
 TMP_GEN_DIR = getattr(settings, 'TMP_GEN_DIR', '/var/tmp/generated_certs')
 CERTS_ARE_CALLED = getattr(settings, 'CERTS_ARE_CALLED', 'certificate')
@@ -472,7 +472,7 @@ class CertificateGen(object):
         styleOpenSansLight.alignment = TA_LEFT
 
         #paragraph_string = "Issued {0}".format(self.issued_date)
-        paragraph_string = "émis le {0}".format(self.issued_date)
+        paragraph_string = "émise le {0}".format(self.issued_date)
 
         # Right justified so we compute the width
         width = stringWidth(
@@ -494,7 +494,6 @@ class CertificateGen(object):
         styleOpenSansLight.alignment = TA_LEFT
 
         #paragraph_string = "This is to certify that"
-        #paragraph_string = "Ce document certifie que"
         paragraph_string = "Ce document atteste que"
         paragraph = Paragraph(paragraph_string, styleOpenSansLight)
         paragraph.wrapOn(c, WIDTH * mm, HEIGHT * mm)
@@ -631,7 +630,7 @@ class CertificateGen(object):
         #    "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
         #    "{verify_url}/{verify_path}/{verify_uuid}</a>"
         paragraph_string = "ATTESTATION SUR LE CODE D'HONNEUR<br/>" \
-            "*L'authenticité de cette attestation peut être vérifiée à " \
+            "*L'authenticité de cette attestation peut être vérifiée au " \
             "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
             "{verify_url}/{verify_path}/{verify_uuid}</a>"
 
