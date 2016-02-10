@@ -87,15 +87,15 @@ def prettify_isodate(isoformat_date):
     m = RE_ISODATES.match(isoformat_date)
     if not m:
         raise TypeError("prettify_isodate called with incorrect date format: %s" % isoformat_date)
-    day_suffixes = {'1': 'st', '2': 'nd', '3': 'rd', '21': 'st', '22': 'nd', '23': 'rd', '31': 'st'}
-    months = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
-              'August', 'September', 'October', 'November', 'December']
-    date = {'year': '', 'month': '', 'day': '', 'suffix': 'th'}
+    day_suffixes = {'1': 'er'}
+    months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
+              'août', 'septembre', 'octobre', 'novembre', 'décembre']
+    date = {'year': '', 'month': '', 'day': '', 'suffix': ''}
     date['year'] = m.group('year')
     date['month'] = months[int(m.group('month')) - 1]
     date['day'] = m.group('day').lstrip('0')
-    date['suffix'] = day_suffixes.get(date['day'], 'th')
-    return "%(month)s %(day)s%(suffix)s, %(year)s" % date
+    date['suffix'] = day_suffixes.get(date['day'], '')
+    return "%(day)s%(suffix)s %(month)s, %(year)s" % date
 
 
 def get_cert_date(calling_date_parameter, configured_date_parameter):
@@ -472,6 +472,9 @@ class CertificateGen(object):
         styleOpenSansLight.alignment = TA_LEFT
 
         #paragraph_string = "Issued {0}".format(self.issued_date)
+        generate_date = datetime.date.today().isoformat()
+        date_value = prettify_isodate(generate_date)
+        self.issued_date = date_value
         paragraph_string = "émise le {0}".format(self.issued_date)
 
         # Right justified so we compute the width
