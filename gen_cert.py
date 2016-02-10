@@ -633,7 +633,7 @@ class CertificateGen(object):
         #    "*Authenticity of this certificate can be verified at " \
         #    "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
         #    "{verify_url}/{verify_path}/{verify_uuid}</a>"
-        paragraph_string = "ATTESTATION EDUlib<br/>" \
+        paragraph_string = "ATTESTATION EDULIB<br/>" \
             "*L'authenticité de cette attestation peut être vérifié à " \
             "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
             "{verify_url}/{verify_path}/{verify_uuid}</a>"
