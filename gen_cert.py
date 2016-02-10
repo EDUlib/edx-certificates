@@ -95,7 +95,7 @@ def prettify_isodate(isoformat_date):
     date['month'] = months[int(m.group('month')) - 1]
     date['day'] = m.group('day').lstrip('0')
     date['suffix'] = day_suffixes.get(date['day'], '')
-    return "%(day)s%(suffix)s %(month)s, %(year)s" % date
+    return "%(day)s%(suffix)s %(month)s %(year)s" % date
 
 
 def get_cert_date(calling_date_parameter, configured_date_parameter):
