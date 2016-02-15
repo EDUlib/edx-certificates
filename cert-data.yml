@@ -1,4 +1,5 @@
 ---
+
 course-v1:UMontreal+LTI02+2016H:
   COURSE: LTI02
   ORG: UMontreal
@@ -9,7 +10,7 @@ course-v1:UMontreal+LTI01+2016H:
   COURSE: LTI01
   ORG: UMontreal
   LONG_ORG: UMontreal
-  LONG_COURSE: CECI EST UN TEST
+  LONG_COURSE: 'Pierre fait un test'
 
 course-v1:UMontreal+Audit101+2016H:
   COURSE: Audit101
@@ -34,7 +35,6 @@ course-v1:UMontreal+HonorVerified401+2016H:
   ORG: UMontreal
   LONG_ORG: UMontreal
   LONG_COURSE: 'Ceci est en mode Honor and Verified' 
-  COURSE_NAME: 'UMontreal+HonorVerified401'
 
 course-v1:UMontreal+AuditVerified501+2016H:
   COURSE: AuditVerified501
