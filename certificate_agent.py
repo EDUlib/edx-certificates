@@ -78,9 +78,9 @@ def main():
             #
             # course_name = xqueue_body['course_name']
             # course_name = json.loads(certdata['course_name'])
-            # course_name = 'certificates'
-            course_stuff = json.loads(certdata['xqueue_body'])
-            course_name = course_stuff['course_name']
+            # course_name = 'certificates' #THIS WORKS
+            # course_stuff = json.loads(certdata['xqueue_body'])
+            # course_name = course_stuff['course_name']
             # EDULIB DOGWOOD MODIFICATIONS
             name = xqueue_body['name']
             template_pdf = xqueue_body.get('template_pdf', None)
@@ -102,16 +102,23 @@ def main():
                                         xqueue_body['delete_verify_uuid'])
                 if action in ['remove']:
                     continue
+            course_stuff = json.loads(certdata['xqueue_body'])
+            course_name = course_stuff['course_name']
             # EDULIB DOGWOOD MODIFICATIONS
             # log.info("{0} est le nom de la queue".format(course_name))
             # log.info("{0} est le nom de la queue".format(course_name))
-            # log.info("{0} est le result".format(certdata))
-            # log.info("{0} est le nouveau result".format(json.loads(certdata['xqueue_body'])))
-            # log.debug("CECI EST UN MESSAGE")
-            # log.info("CECI EST UN MESSAGE AUSSI")
+            log.info("{0} est le result".format(certdata))
+            log.info("{0} est le nouveau result".format(xqueue_body))
+            log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
+            log.critical("{0} ARE THE VALUES OF XQUEUE BODY".format(xqueue_body))
+            #log.info("{0} est le nouveau result".format(json.loads(certdata['xqueue_body'])))
+            #log.debug("CECI EST UN MESSAGE")
+            #log.info("CECI EST UN MESSAGE AUSSI")
             # EDULIB DOGWOOD MODIFICATIONS
 
         except (TypeError, ValueError, KeyError, IOError) as e:
+            log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
+            log.critical("{0} ARE THE VALUES OF XQUEUE BODY".format(xqueue_body))
             log.critical('Unable to parse queue submission ({0}) : {1}'.format(e, certdata))
             if settings.DEBUG:
                 raise
