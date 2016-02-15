@@ -80,11 +80,11 @@ def main():
             # For whatever reason this code bugs in Dogwood
             # I had to reload the certdata in order to get the proper course name
             #
-            # course_name = xqueue_body['course_name']
+            course_name = xqueue_body['course_name']
             # course_name = json.loads(certdata['course_name'])
             # course_name = 'certificates' #THIS WORKS
-            course_stuff = json.loads(certdata['xqueue_body'])
-            course_name = course_stuff['long_course']
+            # course_stuff = json.loads(certdata['xqueue_body'])
+            # course_name = course_stuff['username']
             # EDULIB DOGWOOD MODIFICATIONS
             name = xqueue_body['name']
             template_pdf = xqueue_body.get('template_pdf', None)
