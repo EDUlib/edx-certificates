@@ -30,7 +30,8 @@ TEMPLATE_DATA_SUBDIR = 'template_data'
 CERT_DATA_FILE = 'cert-data.yml'
 
 # DEFAULTS
-DEBUG = False
+DEBUG = True
+#DEBUG = False
 # This needs to be set on MacOS or anywhere you want logging to simply go
 # to an output file.
 LOGGING_DEV_ENV = True

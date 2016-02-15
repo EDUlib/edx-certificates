@@ -1,15 +1,15 @@
 ---
-course-v1:UMontreal+LTI01+2016H:
-  COURSE: LTI01
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: 'Attestation LTI01'
-
 course-v1:UMontreal+LTI02+2016H:
   COURSE: LTI02
   ORG: UMontreal
   LONG_ORG: UMontreal
-  LONG_COURSE: 'Attestation LTI02'
+  LONG_COURSE: 'La chimie, en route vers le génie'
+
+course-v1:UMontreal+LTI01+2016H:
+  COURSE: LTI01
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Encore La chimie, en route vers le génie'
 
 course-v1:UMontreal+Audit101+2016H:
   COURSE: Audit101
@@ -34,6 +34,7 @@ course-v1:UMontreal+HonorVerified401+2016H:
   ORG: UMontreal
   LONG_ORG: UMontreal
   LONG_COURSE: 'Ceci est en mode Honor and Verified' 
+  COURSE_NAME: 'UMontreal+HonorVerified401'
 
 course-v1:UMontreal+AuditVerified501+2016H:
   COURSE: AuditVerified501
@@ -54,12 +55,17 @@ UMontreal/PRC.1/P2015:
   LONG_COURSE: Processus de raisonnement clinique
   ISSUED_DATE: '11 janvier 2016'
 
-course-v1:HEC+ENT-102.1b+E2015:
+UMontreal/ITES.1/P2015:
+  COURSE: ITES.1
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Innovations technopédagogiques en enseignement supérieur'
+
+HEC/ENT-102.1/P2015:
   COURSE: ENT-102.1
   ORG: HEC
   LONG_ORG: HEC
-  LONG_COURSE: Synop
-  ISSUED_DATE: '28 juillet 2015'
+  LONG_COURSE: "Réussir son démarrage d'entreprise - L'approche SynOpp"
 
 edX/Open_DemoX/edx_demo_course:
   COURSE: MKT101
