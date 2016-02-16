@@ -107,24 +107,24 @@ def main():
                                         xqueue_body['delete_verify_uuid'])
                 if action in ['remove']:
                     continue
-            #course_stuff = json.loads(certdata['xqueue_body'])
-            #course_name = course_stuff['course_name']
+
             # EDULIB DOGWOOD MODIFICATIONS
+            # course_stuff = json.loads(certdata['xqueue_body'])
+            # course_name = course_stuff['course_name']
             # log.info("{0} est le nom de la queue".format(course_name))
             # log.info("{0} est le nom de la queue".format(course_name))
-            log.info("{0} est le result".format(certdata))
-            log.info("{0} est le nouveau result".format(xqueue_body))
-            log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
-            log.critical("{0} ARE THE VALUES OF XQUEUE BODY".format(xqueue_body))
-            #log.info("{0} est le nouveau result".format(json.loads(certdata['xqueue_body'])))
-            #log.debug("CECI EST UN MESSAGE")
-            #log.info("CECI EST UN MESSAGE AUSSI")
+            # log.info("{0} est le result".format(certdata))
+            # log.info("{0} est le nouveau result".format(xqueue_body))
+            # log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
+            # log.critical("{0} ARE THE VALUES OF XQUEUE BODY".format(xqueue_body))
             # EDULIB DOGWOOD MODIFICATIONS
 
         except (TypeError, ValueError, KeyError, IOError) as e:
-            log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
-            log.critical("{0} ARE THE VALUES OF XQUEUE BODY".format(xqueue_body))
-            log.critical('Unable to parse queue submission ({0}) : {1}'.format(e, certdata))
+            # EDULIB DOGWOOD MODIFICATIONS
+            # log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
+            # log.critical("{0} ARE THE VALUES OF XQUEUE BODY".format(xqueue_body))
+            # log.critical('Unable to parse queue submission ({0}) : {1}'.format(e, certdata))
+            # EDULIB DOGWOOD MODIFICATIONS
             if settings.DEBUG:
                 raise
             else:
