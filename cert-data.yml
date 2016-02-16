@@ -1,5 +1,10 @@
 ---
 
+course-v1:UMontreal+Pro1001+2016H:
+  COURSE: Pro1001
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+
 course-v1:UMontreal+LTI02+2016H:
   COURSE: LTI02
   ORG: UMontreal
