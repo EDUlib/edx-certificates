@@ -95,7 +95,8 @@ def prettify_isodate(isoformat_date):
     date['month'] = months[int(m.group('month')) - 1]
     date['day'] = m.group('day').lstrip('0')
     date['suffix'] = day_suffixes.get(date['day'], '')
-    return "%(day)s%(suffix)s %(month)s, %(year)s" % date
+    #return "%(day)s%(suffix)s %(month)s, %(year)s" % date
+    return "%(day)s%(suffix)s %(month)s %(year)s" % date
 
 
 def get_cert_date(calling_date_parameter, configured_date_parameter):
@@ -634,7 +635,7 @@ class CertificateGen(object):
         #    "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
         #    "{verify_url}/{verify_path}/{verify_uuid}</a>"
         paragraph_string = "ATTESTATION EDULIB<br/>" \
-            "*L'authenticité de cette attestation peut être vérifié à " \
+            "*L'authenticité de cette attestation peut être vérifiée à " \
             "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
             "{verify_url}/{verify_path}/{verify_uuid}</a>"
 
