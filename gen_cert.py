@@ -638,16 +638,16 @@ class CertificateGen(object):
         #    "*Authenticity of this certificate can be verified at " \
         #    "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
         #    "{verify_url}/{verify_path}/{verify_uuid}</a>"
-        paragraph_string = "ATTESTATION EDULIB<br/>" \
-            "*L'authenticité de cette attestation peut être vérifiée à " \
-            "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
-            "{verify_url}/{verify_path}/{verify_uuid}</a>"
+        #####paragraph_string = "ATTESTATION EDULIB<br/>" \
+        #####    "*L'authenticité de cette attestation peut être vérifiée à " \
+        #####    "<a href='{verify_url}/{verify_path}/{verify_uuid}'>" \
+        #####    "{verify_url}/{verify_path}/{verify_uuid}</a>"
 
-        paragraph_string = paragraph_string.format(
-            verify_url=settings.CERT_VERIFY_URL,
-            verify_path=S3_VERIFY_PATH,
-            verify_uuid=verify_uuid)
-        paragraph = Paragraph(paragraph_string, styleOpenSansLight)
+        #####paragraph_string = paragraph_string.format(
+        #####    verify_url=settings.CERT_VERIFY_URL,
+        #####    verify_path=S3_VERIFY_PATH,
+        #####    verify_uuid=verify_uuid)
+        #####paragraph = Paragraph(paragraph_string, styleOpenSansLight)
 
         paragraph.wrapOn(c, WIDTH * mm, HEIGHT * mm)
         paragraph.drawOn(c, 0 * mm, 28 * mm)
