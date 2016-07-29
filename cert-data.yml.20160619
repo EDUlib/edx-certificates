@@ -1,21 +1,9 @@
 ---
-course-v1:HEC+d101+H2016:
-  COURSE: d101
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "L'évaluation participative de projets concertés"
-
 HEC/SC101.2/A2015:
   COURSE: SC-101.2
   ORG: HEC
   LONG_ORG: HEC
   LONG_COURSE: "Comprendre les états financiers"
-
-course-v1:HEC+ENT-102.2+P2016:
-  COURSE: ENT-102.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Réussir son démarrage d'entreprise - L'approche SynOpp"
 
 course-v1:HEC+ENT-101.2+H2016:
   COURSE: ENT-101.2
@@ -88,23 +76,11 @@ course-v1:UMontreal+AuditVerified501+2016H:
   LONG_ORG: UMontreal
   LONG_COURSE: 'Ceci est en mode Audit and Verified' 
 
-course-v1:PolyMtl+CHE101.2+P2016:
-  COURSE: CHE101.2
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: 'La chimie, en route vers le génie'
-
 course-v1:PolyMtl+CHE101.1+E2015:
   COURSE: CHE101.1
   ORG: PolyMtl
   LONG_ORG: PolyMtl
   LONG_COURSE: 'La chimie, en route vers le génie'
-
-course-v1:UMontreal+PRC.2+P2016:
-  COURSE: PRC.2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: Processus de raisonnement clinique
 
 UMontreal/PRC.1/P2015:
   COURSE: PRC.1
