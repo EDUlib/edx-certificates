@@ -11,12 +11,6 @@ HEC/SC101.2/A2015:
   LONG_ORG: HEC
   LONG_COURSE: "Comprendre les états financiers"
 
-course-v1:HEC+ENT-102.2+P2016:
-  COURSE: ENT-102.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Réussir son démarrage d'entreprise - L'approche SynOpp"
-
 course-v1:HEC+ENT-101.2+H2016:
   COURSE: ENT-101.2
   ORG: HEC
