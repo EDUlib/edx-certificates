@@ -1,22 +1,4 @@
 ---
-course-v1:HEC+MAN-101.1+A2016:
-  COURSE: MAN-101.1
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Le Management"
-
-course-v1:HEC+MAN-102.1+A2016:
-  COURSE: MAN-102.1
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Promouvoir la santé et l'efficacité au travail"
-
-course-v1:HEC+ENT-102.3+A2016:
-  COURSE: ENT-102.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Réussir son démarrage d'entreprise - L'approche SynOpp"
-
 course-v1:HEC+d101+H2016:
   COURSE: d101
   ORG: HEC
