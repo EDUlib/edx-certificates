@@ -1,10 +1,4 @@
 ---
-course-v1:PolyMtl+DDI101+A2015:
-  COURSE: DDI101
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "L'ingénieur, source de solutions durables"
-
 course-v1:UMontreal+TEKPHY1+H2017:
   COURSE: TEKPHY1
   ORG: UMontreal
