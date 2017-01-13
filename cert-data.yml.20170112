@@ -1,10 +1,4 @@
 ---
-course-v1:PolyMtl+CHE101.3+A2016:
-  COURSE: CHE101.3
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: 'La chimie, en route vers le génie'
-
 course-v1:PolyMtl+DDI101+A2015:
   COURSE: DDI101
   ORG: PolyMtl
