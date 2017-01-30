@@ -1,15 +1,9 @@
 ---
-course-v1:UMontreal+CRP.1+A2016:
-  COURSE: CRP.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Clinical Reasoning Process"
-
 course-v1:PolyMtl+CHE101.3+A2016:
   COURSE: CHE101.3
   ORG: PolyMtl
   LONG_ORG: PolyMtl
-  LONG_COURSE: "La chimie, en route vers le génie"
+  LONG_COURSE: 'La chimie, en route vers le génie'
 
 course-v1:PolyMtl+DDI101+A2015:
   COURSE: DDI101
