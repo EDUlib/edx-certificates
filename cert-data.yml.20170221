@@ -1,10 +1,4 @@
 ---
-course-v1:UMontreal+OAS.2+P2017:
-  COURSE: OAS.2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Outil d’Aide à la Scénarisation pédagogique"
-
 course-v1:PolyMtl+CHE101.3+A2016:
   COURSE: CHE101.3
   ORG: PolyMtl
