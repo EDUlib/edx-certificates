@@ -1,4 +1,16 @@
 ---
+course-v1:UMontreal+test-attestation+H2017:
+  COURSE: test-attestation
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Attestation"
+
+course-v1:UMontreal+test-aag+H2017:
+  COURSE: test-aag
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Attestation auto-générée"
+
 course-v1:UMontreal+OAS.2+P2017:
   COURSE: OAS.2
   ORG: UMontreal
