@@ -1,28 +1,4 @@
 ---
-course-v1:UMontreal+test-attestation+H2017:
-  COURSE: test-attestation
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Attestation"
-
-course-v1:UMontreal+test-aag+H2017:
-  COURSE: test-aag
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Attestation auto-générée"
-
-course-v1:UMontreal+OAS.2+P2017:
-  COURSE: OAS.2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Outil d’Aide à la Scénarisation pédagogique"
-
-course-v1:UMontreal+CRP.1+A2016:
-  COURSE: CRP.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Clinical Reasoning Process"
-
 course-v1:PolyMtl+CHE101.3+A2016:
   COURSE: CHE101.3
   ORG: PolyMtl
@@ -40,12 +16,6 @@ course-v1:UMontreal+TEKPHY1+H2017:
   ORG: UMontreal
   LONG_ORG: UMontreal
   LONG_COURSE: "TEKPHY – Équilibre postural"
-
-course-v1:UMontreal+TEKPHY2+P2017:
-  COURSE: TEKPHY2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "TEKPHY – Activité physique et dépense énergétique"
 
 course-v1:UMontreal+OAS.1+P2016:
   COURSE: OAS.1
