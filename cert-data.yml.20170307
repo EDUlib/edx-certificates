@@ -1,10 +1,4 @@
 ---
-course-v1:HEC+ENT-103.1+H2017:
-  COURSE: ENT-103.1 
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Entrepreneuriat familial"
-
 course-v1:UMontreal+test-attestation+H2017:
   COURSE: test-attestation
   ORG: UMontreal
