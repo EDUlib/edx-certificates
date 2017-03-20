@@ -1,10 +1,4 @@
 ---
-HEC/SC102.1/A2015:
-  COURSE: SC-102.1
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Décisions financières et gestion budgétaire"
-
 course-v1:HEC+ENT-103.1+H2017:
   COURSE: ENT-103.1 
   ORG: HEC
