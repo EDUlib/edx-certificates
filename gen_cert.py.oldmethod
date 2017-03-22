@@ -92,14 +92,11 @@ def prettify_isodate(isoformat_date):
               'août', 'septembre', 'octobre', 'novembre', 'décembre']
     date = {'year': '', 'month': '', 'day': '', 'suffix': ''}
     date['year'] = m.group('year')
-    #date['month'] = months[int(m.group('month')) - 1]
-    date['month'] = int(m.group('month'))
+    date['month'] = months[int(m.group('month')) - 1]
     date['day'] = m.group('day').lstrip('0')
     date['suffix'] = day_suffixes.get(date['day'], '')
     #return "%(day)s%(suffix)s %(month)s, %(year)s" % date
-    #return "%(day)s%(suffix)s %(month)s %(year)s" % date
-    #return "%(year)s-%(month)s-%(day)s" % date
-    return isoformat_date
+    return "%(day)s%(suffix)s %(month)s %(year)s" % date
 
 
 def get_cert_date(calling_date_parameter, configured_date_parameter):
@@ -454,8 +451,7 @@ class CertificateGen(object):
 
         #paragraph_string = "CERTIFICATE"
         #paragraph_string = "CERTIFICAT"
-        #paragraph_string = "ATTESTATION"
-        paragraph_string = ""
+        paragraph_string = "ATTESTATION"
 
         # Right justified so we compute the width
         width = stringWidth(
@@ -480,8 +476,7 @@ class CertificateGen(object):
         generate_date = datetime.date.today().isoformat()
         date_value = prettify_isodate(generate_date)
         self.issued_date = date_value
-        #paragraph_string = "émise le {0}".format(self.issued_date)
-        paragraph_string = "{0}".format(self.issued_date)
+        paragraph_string = "émise le {0}".format(self.issued_date)
 
         # Right justified so we compute the width
         width = stringWidth(
@@ -504,8 +499,7 @@ class CertificateGen(object):
 
         #paragraph_string = "This is to certify that"
         #paragraph_string = "Ce document certifie que"
-        #paragraph_string = "Ce document atteste que"
-        paragraph_string = ""
+        paragraph_string = "Ce document atteste que"
         paragraph = Paragraph(paragraph_string, styleOpenSansLight)
         paragraph.wrapOn(c, WIDTH * mm, HEIGHT * mm)
         paragraph.drawOn(c, LEFT_INDENT * mm, 132.5 * mm)
@@ -552,14 +546,12 @@ class CertificateGen(object):
         styleOpenSansLight.alignment = TA_LEFT
 
         #paragraph_string = "successfully completed"
-        #paragraph_string = "a complété avec succès"
-        paragraph_string = ""
+        paragraph_string = "a complété avec succès"
         if '7.00x' in self.course:
             paragraph_string = "successfully completed the inaugural offering of"
         else:
             #paragraph_string = "successfully completed"
-            #paragraph_string = "a complété avec succès"
-            paragraph_string = ""
+            paragraph_string = "a complété avec succès"
 
         paragraph = Paragraph(paragraph_string, styleOpenSansLight)
 
@@ -944,7 +936,7 @@ class CertificateGen(object):
         # ELEM: Footer - Issued on Date
         x_offset = pos_footer_date_x
         y_offset = pos_footer_date_y
-        #paragraph_string = "Issued {0}".format(self.issued_date)
+        paragraph_string = "Issued {0}".format(self.issued_date)
         # Right justified so we compute the width
         paragraph = Paragraph("{0}".format(
             paragraph_string), styleAvenirFooter)
