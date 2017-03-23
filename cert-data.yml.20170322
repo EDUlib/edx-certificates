@@ -1,10 +1,4 @@
 ---
-course-v1:PolyMtl+CHE102+P2017:
-  COURSE: CHE102
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "La chimie, en route vers le génie II"
-
 course-v1:UMontreal+IFT-Info-Theo+H2016:
   COURSE: IFT-Info-Theo
   ORG: UMontreal
