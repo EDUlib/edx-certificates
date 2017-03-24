@@ -71,6 +71,12 @@ course-v1:UMontreal+TEKPHY2+P2017:
   LONG_ORG: UMontreal
   LONG_COURSE: "TEKPHY – Activité physique et dépense énergétique"
 
+course-v1:UMontreal+TEKPHY3+P2017:
+  COURSE: TEKPHY3
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "TEKPHY — Mobilité articulaire et mouvement fonctionnel"
+
 course-v1:UMontreal+OAS.1+P2016:
   COURSE: OAS.1
   ORG: UMontreal
