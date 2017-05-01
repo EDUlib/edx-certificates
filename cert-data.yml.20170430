@@ -214,12 +214,6 @@ course-v1:PolyMtl+CHE101.1+E2015:
   LONG_ORG: PolyMtl
   LONG_COURSE: 'La chimie, en route vers le génie'
 
-course-v1:UMontreal+PRC.3+P2017:
-  COURSE: PRC.3
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: Processus de raisonnement clinique
-
 course-v1:UMontreal+PRC.2+P2016:
   COURSE: PRC.2
   ORG: UMontreal
