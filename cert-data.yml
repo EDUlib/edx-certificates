@@ -1,4 +1,10 @@
 ---
+course-v1:HEC+SC-102-SPOOC.1+A2017:
+  COURSE: SC-102-SPOOC.1
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Comptabilité de gestion"
+
 course-v1:HEC+ENT-101.H+E2017:
   COURSE: ENT-101.H
   ORG: HEC
