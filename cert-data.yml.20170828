@@ -1,22 +1,4 @@
 ---
-course-v1:UMontreal+TEKPHY1.2+A2017:
-  COURSE: TEKPHY1.2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "TEKPHY – Équilibre postural"
-
-course-v1:UMontreal+TEKPHY2.2+A2017:
-  COURSE: TEKPHY2.2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "TEKPHY – Activité physique et dépense énergétique"
-
-course-v1:UMontreal+TEKPHY3.2+A2017:
-  COURSE: TEKPHY3.2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "TEKPHY — Mobilité articulaire et mouvement fonctionnel"
-
 course-v1:HEC+SC-102-SPOOC.1+A2017:
   COURSE: SC-102-SPOOC.1
   ORG: HEC
