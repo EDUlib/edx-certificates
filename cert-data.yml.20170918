@@ -1,16 +1,4 @@
 ---
-course-v1:UMontreal+MASTBOV1.1+A2017:
-  COURSE: MASTBOV1.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "The udder and its response to infection"
-
-course-v1:UMontreal+MAMBOV1.1+A2017:
-  COURSE: MAMBOV1.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "La glande mammaire et sa réponse à l’infection"
-
 course-v1:UMontreal+IFT-Limites.2+A2017:
   COURSE: IFT-Limites.2
   ORG: UMontreal
