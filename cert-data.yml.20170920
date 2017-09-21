@@ -1,10 +1,4 @@
 ---
-course-v1:UMontreal+OAS.3+A2017:
-  COURSE: OAS.3
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Outil d’aide à la scénarisation"
-
 course-v1:UMontreal+MASTBOV1.1+A2017:
   COURSE: MASTBOV1.1
   ORG: UMontreal
