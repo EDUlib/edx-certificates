@@ -1,10 +1,4 @@
 ---
-course-v1:UMontreal+PRC.4+H2018:
-  COURSE: PRC.4
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Processus de raisonnement clinique"
-
 course-v1:HEC+SC-102.2+A2017:
   COURSE: SC-102.2
   ORG: HEC
