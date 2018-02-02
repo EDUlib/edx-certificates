@@ -1,34 +1,4 @@
 ---
-course-v1:HEC+ENT-102.4+HEC:
-  COURSE: ENT-102.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Réussir son démarrage d'entreprise - L'approche SynOpp"
-
-course-v1:HEC+MAN-102-SPOOC.1+H2018:
-  COURSE: MAN-102-SPOOC.1
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Promouvoir la santé et l'efficacité au travail"
-
-course-v1:HEC+ENT-103.2+H2018:
-  COURSE: ENT-103.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Entrepreneuriat familial"
-
-course-v1:HEC+SC101-SPOOC.1+H2018:
-  COURSE: SC101-SPOOC.1
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Comprendre les états financiers"
-
-course-v1:PolyMtl+CHE102.2+A2017:
-  COURSE: CHE102.2
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "La chimie, en route vers le génie II"
-
 course-v1:HEC+ED-03+A2017:
   COURSE: ED-03
   ORG: HEC
@@ -39,6 +9,7 @@ course-v1:HEC+COL-101.2+A2017:
   COURSE: COL-101.2
   ORG: HEC
   LONG_ORG: HEC
+  LONG_COURSE: "L'évaluation participative: mesurer les projets collectifs pour les mener au succès"
 
 course-v1:UMontreal+PRC.4+H2018:
   COURSE: PRC.4
