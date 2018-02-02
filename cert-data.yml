@@ -1,4 +1,10 @@
 ---
+course-v1:HEC+GRH-101-SPOOC.1+H2018:
+  COURSE: GRH-101-SPOOC.1
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Gestion des conflits"
+
 course-v1:HEC+ENT-102.4+HEC:
   COURSE: ENT-102.4
   ORG: HEC
