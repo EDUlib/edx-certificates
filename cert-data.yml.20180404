@@ -1,0 +1,357 @@
+---
+course-v1:UMontreal+ SelfPaced0001+A2017:
+  COURSE: SelfPaced0001
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Cours Self-Paced avec Attestations Autogénérées"
+
+course-v1:UMontreal+TEKPHY1.2+A2017:
+  COURSE: TEKPHY1.2
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "TEKPHY – Équilibre postural"
+
+course-v1:UMontreal+TEKPHY2.2+A2017:
+  COURSE: TEKPHY2.2
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "TEKPHY – Activité physique et dépense énergétique"
+
+course-v1:UMontreal+TEKPHY3.2+A2017:
+  COURSE: TEKPHY3.2
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "TEKPHY — Mobilité articulaire et mouvement fonctionnel"
+
+course-v1:HEC+SC-102-SPOOC.1+A2017:
+  COURSE: SC-102-SPOOC.1
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Comptabilité de gestion"
+
+course-v1:HEC+ENT-101.H+E2017:
+  COURSE: ENT-101.H
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "L’esprit entrepreneurial"
+
+course-v1:PolyMtl+CHE102+P2017:
+  COURSE: CHE102
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "La chimie, en route vers le génie II"
+
+course-v1:UMontreal+BRAMS.2+P2017:
+  COURSE: BRAMS.2
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Neurosciences : parole, musique"
+
+course-v1:UMontreal+IFT-Info-Theo+H2016:
+  COURSE: IFT-Info-Theo
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Vers les limites ultimes de l'informatique"
+
+HEC/SC102.1/A2015:
+  COURSE: SC-102.1
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Décisions financières et gestion budgétaire"
+
+course-v1:HEC+ENT-103.1+H2017:
+  COURSE: ENT-103.1 
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Entrepreneuriat familial"
+
+course-v1:UMontreal+test-attestation+H2017:
+  COURSE: test-attestation
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Attestation"
+
+course-v1:UMontreal+test-aag+H2017:
+  COURSE: test-aag
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Attestation auto-générée"
+
+course-v1:UMontreal+OAS.2+P2017:
+  COURSE: OAS.2
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Outil d’Aide à la Scénarisation pédagogique"
+
+course-v1:UMontreal+CRP.1+A2016:
+  COURSE: CRP.1
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Clinical Reasoning Process"
+
+course-v1:PolyMtl+CHE101.4+E2017:
+  COURSE: CHE101.4
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "La chimie, en route vers le génie I"
+
+course-v1:PolyMtl+CHE101.3+A2016:
+  COURSE: CHE101.3
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "La chimie, en route vers le génie"
+
+course-v1:PolyMtl+DDI101+A2015:
+  COURSE: DDI101
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "L'ingénieur, source de solutions durables"
+
+course-v1:PolyMtl+DDI101.2+H2017:
+  COURSE: DDI101.2
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "L'ingénieur, source de solutions durables"
+
+course-v1:PolyMtl+DDI101.3+P2017:
+  COURSE: DDI101.3
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "L'ingénieur, source de solutions durables"
+
+course-v1:PolyMtl+DDI101.4+A2017:
+  COURSE: DDI101.4
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "L'ingénieur, source de solutions durables"
+
+course-v1:UMontreal+TEKPHY1+H2017:
+  COURSE: TEKPHY1
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "TEKPHY – Équilibre postural"
+
+course-v1:UMontreal+TEKPHY2+P2017:
+  COURSE: TEKPHY2
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "TEKPHY – Activité physique et dépense énergétique"
+
+course-v1:UMontreal+TEKPHY3+P2017:
+  COURSE: TEKPHY3
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "TEKPHY — Mobilité articulaire et mouvement fonctionnel"
+
+course-v1:UMontreal+OAS.1+P2016:
+  COURSE: OAS.1
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Outil d’Aide à la Scénarisation pédagogique"
+
+course-v1:HEC+MAN-101.1+A2016:
+  COURSE: MAN-101.1
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Le Management"
+
+course-v1:HEC+MAN-102.1+A2016:
+  COURSE: MAN-102.1
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Promouvoir la santé et l'efficacité au travail"
+
+course-v1:HEC+ENT-102.3+A2016:
+  COURSE: ENT-102.3
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Réussir son démarrage d'entreprise - L'approche SynOpp"
+
+course-v1:HEC+d101+H2016:
+  COURSE: d101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "L'évaluation participative de projets concertés"
+
+HEC/SC101.2/A2015:
+  COURSE: SC-101.2
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Comprendre les états financiers"
+
+course-v1:HEC+ENT-102.2+P2016:
+  COURSE: ENT-102.2
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Réussir son démarrage d'entreprise - L'approche SynOpp"
+
+course-v1:HEC+ENT-101.2+H2016:
+  COURSE: ENT-101.2
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "L’esprit entrepreneurial"
+
+course-v1:HEC+ED101+A2015:
+  COURSE: ED101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: 'Négocier au quotidien'
+
+course-v1:ED-HEC+001+H2016:
+  COURSE: ED001
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: 'Négocier au quotidien'
+
+HEC/GRH-101/A2015:
+  COURSE: GRH-101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Gestion des conflits"
+
+course-v1:UMontreal+Pro1001+2016H:
+  COURSE: Pro1001
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+
+course-v1:UMontreal+LTI02+2016H:
+  COURSE: LTI02
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'La chimie, en route vers le génie'
+
+course-v1:UMontreal+LTI01+2016H:
+  COURSE: LTI01
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Pierre fait un test'
+
+course-v1:UMontreal+Audit101+2016H:
+  COURSE: Audit101
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Ceci est en mode Audit' 
+
+course-v1:UMontreal+Honor201+2016H:
+  COURSE: Honor201
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Ceci est en mode Honor' 
+
+course-v1:UMontreal+Verified301+2016H:
+  COURSE: Verified301
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Ceci est en mode Verified' 
+
+course-v1:UMontreal+HonorVerified401+2016H:
+  COURSE: HonorVerified401
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Ceci est en mode Honor and Verified' 
+
+course-v1:UMontreal+AuditVerified501+2016H:
+  COURSE: AuditVerified501
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Ceci est en mode Audit and Verified' 
+
+course-v1:PolyMtl+CHE101.2+P2016:
+  COURSE: CHE101.2
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: 'La chimie, en route vers le génie'
+
+course-v1:PolyMtl+CHE101.1+E2015:
+  COURSE: CHE101.1
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: 'La chimie, en route vers le génie'
+
+course-v1:UMontreal+PRC.3+P2017:
+  COURSE: PRC.3
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: Processus de raisonnement clinique
+
+course-v1:UMontreal+PRC.2+P2016:
+  COURSE: PRC.2
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: Processus de raisonnement clinique
+
+UMontreal/PRC.1/P2015:
+  COURSE: PRC.1
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: Processus de raisonnement clinique
+  ISSUED_DATE: '11 janvier 2016'
+
+UMontreal/ITES.1/P2015:
+  COURSE: ITES.1
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: 'Innovations technopédagogiques en enseignement supérieur'
+
+HEC/ENT-102.1/P2015:
+  COURSE: ENT-102.1
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Réussir son démarrage d'entreprise - L'approche SynOpp"
+
+edX/Open_DemoX/edx_demo_course:
+  COURSE: MKT101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Cours Test
+  ISSUED_DATE: '11 mai 2015'
+
+edX/DemoX/Demo_Course:
+  COURSE: MKT101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Cours Test
+  ISSUED_DATE: '11 mai 2015'
+
+edX/DemoX_v3/Demo_Course_v3:
+  LONG_ORG: Sample Org v3
+  LONG_COURSE: Computer Science 101 with utf-8 char like à
+  VERSION: 3_dynamic
+  interstitial:
+    Pass: 'This person passed.'
+    Distinction: 'This person is a complete overachiever!'
+
+course-v1:edX+DemoX_v3+Demo_Course_v3:
+  LONG_ORG: Sample Org v3
+  LONG_COURSE: Computer Science 101 with utf-8 char like à
+  VERSION: 3_dynamic
+  interstitial:
+    Pass: 'This person passed.'
+    Distinction: 'This person is a complete overachiever!'
+
+course-v1:Umontreal+Cert101+H2015:
+  COURSE: Cert101
+  ORG: UMontreal
+  LONG_COURSE: Intro aux Certificats
+  LONG_ORG: UMontreal
+  ISSUED_DATE: '8 avril 2015'
+
+course-v1:UMontreal+Test02+course:
+  COURSE: TESTRGL 
+  ORG: UMontreal
+  LONG_COURSE:  Tests RGL
+  LONG_ORG: UMontreal
+  ISSUED_DATE: '9 juin 2015'
+
+HEC/HEC101/Hiver2015:
+  COURSE: HEC101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Cours Test
+
+HEC/MKT-101/H2015:
+  COURSE: MKT101
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: Cours Test
+  ISSUED_DATE: '11 mai 2015'
