@@ -1,11 +1,5 @@
 ---
 course-v1:PolyMtl+DDI101.5+H2018:
-  COURSE: ED-04
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Influencer les personnes dans le changement : positionnement et stratégie."
-
-course-v1:PolyMtl+DDI101.5+H2018:
   COURSE: DDI101.5
   ORG: PolyMtl
   LONG_ORG: PolyMtl
