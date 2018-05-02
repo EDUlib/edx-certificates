@@ -1,5 +1,11 @@
 ---
-course-v1:PolyMtl+DDI101.5+H2018:
+course-v1:HEC+ED-05+P2018:
+  COURSE: ED-05
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Gestion de la diversité ethnoculturelle en milieu de travail"
+
+course-v1:HEC+ED-04+P2018:
   COURSE: ED-04
   ORG: HEC
   LONG_ORG: HEC
