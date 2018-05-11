@@ -65,7 +65,7 @@ course-v1:JLF+JLF-00+H2019:
   LONG_ORG: JLF
   LONG_COURSE: "Description et inscription au programme"
 
-course-v1:UMontreal+ SelfPaced0001+A2017:
+course-v1:UMontreal+SelfPaced0001+A2017:
   COURSE: SelfPaced0001
   ORG: UMontreal
   LONG_ORG: UMontreal
@@ -82,12 +82,6 @@ course-v1:HEC+ED-04+P2018:
   ORG: HEC
   LONG_ORG: HEC
   LONG_COURSE: "Influencer les personnes dans le changement"
-
-course-v1:PolyMtl+DDI101.5+H2018:
-  COURSE: ED-04
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Influencer les personnes dans le changement : positionnement et stratégie."
 
 course-v1:PolyMtl+DDI101.5+H2018:
   COURSE: DDI101.5
