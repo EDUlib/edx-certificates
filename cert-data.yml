@@ -59,6 +59,18 @@ course-v1:JLF+JLF-01+H2019:
   LONG_ORG: JLF
   LONG_COURSE: "Évaluer son profil entrepreneurial"
 
+course-v1:JLF+JLF-00+H2019:
+  COURSE: JLF-00
+  ORG: JLF
+  LONG_ORG: JLF
+  LONG_COURSE: "Description et inscription au programme"
+
+course-v1:UMontreal+ SelfPaced0001+A2017:
+  COURSE: SelfPaced0001
+  ORG: UMontreal
+  LONG_ORG: UMontreal
+  LONG_COURSE: "Cours Self-Paced avec Attestations Autogénérées"
+
 course-v1:HEC+ED-05+P2018:
   COURSE: ED-05
   ORG: HEC
