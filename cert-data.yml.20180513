@@ -1,10 +1,4 @@
 ---
-course-v1:HEC+UX-101.1+P2018:
-  COURSE: UX-101.1
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Introduction à l'expérience utilisateur"
-
 course-v1:JLF+JLF-10+H2019:
   COURSE: JLF-10
   ORG: JLF
@@ -87,7 +81,7 @@ course-v1:HEC+ED-04+P2018:
   COURSE: ED-04
   ORG: HEC
   LONG_ORG: HEC
-  LONG_COURSE: "Influencer les personnes dans le changement : positionnement et stratégie."
+  LONG_COURSE: "Influencer les personnes dans le changement"
 
 course-v1:PolyMtl+DDI101.5+H2018:
   COURSE: DDI101.5
