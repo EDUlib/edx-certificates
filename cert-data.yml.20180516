@@ -1,10 +1,4 @@
 ---
-course-v1:PolyMtl+EMI101.1+P2018:
-  COURSE: EMI101.1
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Électricité et magnétisme, un duo de génie I"
-
 course-v1:HEC+UX-101.1+P2018:
   COURSE: UX-101.1
   ORG: HEC
