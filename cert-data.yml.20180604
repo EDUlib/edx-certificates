@@ -1,16 +1,4 @@
 ---
-course-v1:UMontreal+EREFUG.1+E2018:
-  COURSE: EREFUG.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Réfugiés et demandeurs d'asile : réalités psychosociales et éducatives et pistes d'intervention"
-
-course-v1:IVADO+IA-101+P2018:
-  COURSE: IA-101
-  ORG: IVADO
-  LONG_ORG: IVADO
-  LONG_COURSE: "Introduction à l'apprentissage profond"
-
 course-v1:PolyMtl+EMI101.1+P2018:
   COURSE: EMI101.1
   ORG: PolyMtl
