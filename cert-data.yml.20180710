@@ -1,16 +1,4 @@
 ---
-course-v1:UMontreal+MAMBOV1.2+E2018:
-  COURSE: MAMBOV1.2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "La glande mammaire et sa réponse à l’infection"
-
-course-v1:UMontreal+MASTBOV1.2+E2018:
-  COURSE: MASTBOV1.2
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Mastitis epidemiology and diagnostic"
-
 course-v1:UMontreal+EREFUG.1+E2018:
   COURSE: EREFUG.1
   ORG: UMontreal
