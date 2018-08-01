@@ -1,10 +1,4 @@
 ---
-course-v1:PolyMtl+DDI101.6+A2018:
-  COURSE: DDI101.6
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "L'ingénieur, source de solutions durables"
-
 course-v1:PolyMtl+CHE101.5+E2018:
   COURSE: CHE101.5
   ORG: PolyMtl
