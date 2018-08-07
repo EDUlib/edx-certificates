@@ -1,16 +1,4 @@
 ---
-course-v1:PolyMtl+DDGE101+A2018:
-  COURSE: DDGE101
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Ingénieurs Canada  –  L'ingénierie durable"
-
-course-v1:PolyMtl+SDES101+P2018:
-  COURSE: SDES101
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Engineers Canada – Sustainability in practice"
-
 course-v1:PolyMtl+DDI101.6+A2018:
   COURSE: DDI101.6
   ORG: PolyMtl
