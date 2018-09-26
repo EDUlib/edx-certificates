@@ -1,34 +1,4 @@
 ---
-course-v1:HEC+GRH-101.2+A2018:
-  COURSE: GRH-101.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gestion des conflits"
-
-course-v1:HEC+MAN-102.2+A2018:
-  COURSE: MAN-102.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Promouvoir la santé et l'efficacité du travail"
-
-course-v1:HEC+ENT-101.4+A2018:
-  COURSE: ENT-101.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "L'esprit entrepreneurial"
-
-course-v1:HEC+SC-102.3+A2018:
-  COURSE: SC-102.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Décisions financières et budgétaires"
-
-course-v1:HEC+MAN-101.3+A2018:
-  COURSE: MAN-101.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Le management"
-
 course-v1:UMontreal+IFT-Limites.3+A2018:
   COURSE: IFT-Limites.3
   ORG: UMontreal
