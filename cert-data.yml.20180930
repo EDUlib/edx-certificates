@@ -1,22 +1,4 @@
 ---
-course-v1:UMontreal+MAMBOV2.1+P2018:
-  COURSE: MAMBOV2.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Épidémiologie et diagnostic de la mammite"
-
-course-v1:UMontreal+MASTBOV2.1+P2018:
-  COURSE: MASTBOV2.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Mastitis epidemiology and diagnostic"
-
-course-v1:UMontreal+BRAMS.3+A2018:
-  COURSE: BRAMS.3
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Neurosciences : audition, langage et musique"
-
 course-v1:HEC+GRH-101.2+A2018:
   COURSE: GRH-101.2
   ORG: HEC
