@@ -1,12 +1,6 @@
 ---
-course-v1:UQAC+BOIS-101+E2018:
-  COURSE: BOIS-101
-  ORG: UQAC
-  LONG_ORG: UQAC
-  LONG_COURSE: "Le matériau bois et la carboneutralité des bâtiments"
-
 course-v1:UMontreal+CRP.3+H2019:
-  COURSE: CRP.3
+  COURSE: MAMBOV2.1
   ORG: UMontreal
   LONG_ORG: UMontreal
   LONG_COURSE: "Clinical Reasoning Process"
