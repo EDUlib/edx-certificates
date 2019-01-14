@@ -1,10 +1,4 @@
 ---
-course-v1:PolyMtl+EMI101.3+H2019:
-  COURSE: EMI101.3
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Électricité et magnétisme, un duo de génie I"
-
 course-v1:PolyMtl+DDI101.7+H2019:
   COURSE: DDI101.7
   ORG: PolyMtl
