@@ -67,26 +67,13 @@ def main():
 
         certdata = manager.get_submission()
         log.debug('xqueue response: {0}'.format(certdata))
-
-        log.info("{0} est le result".format(certdata))
-        log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
-
         try:
             xqueue_body = json.loads(certdata['xqueue_body'])
             xqueue_header = json.loads(certdata['xqueue_header'])
             action = xqueue_body['action']
             username = xqueue_body['username']
             course_id = xqueue_body['course_id']
-            # EDULIB DOGWOOD MODIFICATIONS
-            # For whatever reason this code bugs in Dogwood
-            # I had to reload the certdata in order to get the proper course name
-            #
             course_name = xqueue_body['course_name']
-            # course_name = json.loads(certdata['course_name'])
-            # course_name = 'certificates' #THIS WORKS
-            # course_stuff = json.loads(certdata['xqueue_body'])
-            # course_name = course_stuff['username']
-            # EDULIB DOGWOOD MODIFICATIONS
             name = xqueue_body['name']
             template_pdf = xqueue_body.get('template_pdf', None)
             grade = xqueue_body.get('grade', None)
@@ -108,23 +95,8 @@ def main():
                 if action in ['remove']:
                     continue
 
-            # EDULIB DOGWOOD MODIFICATIONS
-            # course_stuff = json.loads(certdata['xqueue_body'])
-            # course_name = course_stuff['course_name']
-            # log.info("{0} est le nom de la queue".format(course_name))
-            # log.info("{0} est le nom de la queue".format(course_name))
-            # log.info("{0} est le result".format(certdata))
-            # log.info("{0} est le nouveau result".format(xqueue_body))
-            # log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
-            # log.critical("{0} ARE THE VALUES OF XQUEUE BODY".format(xqueue_body))
-            # EDULIB DOGWOOD MODIFICATIONS
-
         except (TypeError, ValueError, KeyError, IOError) as e:
-            # EDULIB DOGWOOD MODIFICATIONS
-            # log.critical("{0} ARE THE VALUES OF CERTDATA".format(certdata))
-            # log.critical("{0} ARE THE VALUES OF XQUEUE BODY".format(xqueue_body))
-            # log.critical('Unable to parse queue submission ({0}) : {1}'.format(e, certdata))
-            # EDULIB DOGWOOD MODIFICATIONS
+            log.critical('Unable to parse queue submission ({0}) : {1}'.format(e, certdata))
             if settings.DEBUG:
                 raise
             else:
