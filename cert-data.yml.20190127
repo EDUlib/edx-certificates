@@ -1,22 +1,4 @@
 ---
-course-v1:UMontreal+PRC-Brest.1+H2019:
-  COURSE: PRC-Brest.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Processus de raisonnement clinique"
-
-course-v1:PolyMtl+DDGE101.2+P2019:
-  COURSE: DDGE101
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Ingénieurs Canada  –  L'ingénierie durable"
-
-course-v1:PolyMtl+SDES101.2+P2019:
-  COURSE: SDES101
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Engineers Canada – Sustainability in practice"
-
 course-v1:PolyMtl+EMI101.3+H2019:
   COURSE: EMI101.3
   ORG: PolyMtl
