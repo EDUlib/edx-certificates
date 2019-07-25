@@ -1,16 +1,4 @@
 ---
-course-v1:PolyMtl+CHE101.6+A2019:
-  COURSE: CHE101.6
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "La chimie, en route vers le génie I"
-
-course-v1:PolyMtl+CHE102.4+A2019:
-  COURSE: CHE102.4
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "La chimie, en route vers le génie II"
-
 course-v1:UMontreal+PRC.6+A2019:
   COURSE: PRC.6
   ORG: UMontreal
