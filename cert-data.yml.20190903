@@ -1,16 +1,4 @@
 ---
-course-v1:UMontreal+MUS-3.1+A2019:
-  COURSE: MUS-3.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Le solfège à votre portée 3"
-
-course-v1:UMontreal+MUS-2.1+A2019:
-  COURSE: MUS-2.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Le solfège à votre portée 2"
-
 course-v1:PolyMtl+EMI101.4+A2019:
   COURSE: EMI101.4
   ORG: PolyMtl
