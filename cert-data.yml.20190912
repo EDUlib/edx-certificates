@@ -1,34 +1,4 @@
 ---
-course-v1:HEC+ENT-103.3+A2019:
-  COURSE: ENT-103.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Entrepreneuriat familial"
-
-course-v1:HEC+ENT-101.5+A2019:
-  COURSE: ENT-101.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "L'esprit entrepreneurial"
-
-course-v1:HEC+SC-102.4+A2019:
-  COURSE: SC-102.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Décisions financières et budgétaires"
-
-course-v1:HEC+MAN-101.4+A2019:
-  COURSE: MAN-101.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Le management"
-
-course-v1:UMontreal+RETAB-101.1+H2019:
-  COURSE: RETAB-101.1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Fondements du rétablissement"
-
 course-v1:UMontreal+MUS-3.1+A2019:
   COURSE: MUS-3.1
   ORG: UMontreal
