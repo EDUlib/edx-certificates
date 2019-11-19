@@ -1,28 +1,4 @@
 ---
-course-v1:HEC+3126EHQ01.5+2019:
-  COURSE: 3126EHQ01.5
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
-course-v1:HEC+3126EHQ01.4+2019:
-  COURSE: 3126EHQ01.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
-course-v1:HEC+3126EHQ01.3+2019:
-  COURSE: 3126EHQ01.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
-course-v1:HEC+3126EHQ01.2+2019:
-  COURSE: 3126EHQ01.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
 course-v1:UMontreal+DFC-AIOPIO-1+P2019:
   COURSE: DFC-AIOPIO-1
   ORG: UMontreal
