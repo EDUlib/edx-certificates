@@ -1,10 +1,4 @@
 ---
-course-v1:EDDEC+EC-101.3+H2020:
-  COURSE: EC-101.3
-  ORG: EDDEC
-  LONG_ORG: EDDEC
-  LONG_COURSE: "Économie circulaire : une transition incontournable"
-
 course-v1:UMontreal+DSG-101.1+A2019:
   COURSE: DSG-101.1
   ORG: UMontreal
