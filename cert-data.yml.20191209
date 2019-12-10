@@ -1,16 +1,4 @@
 ---
-course-v1:PolyMtl+DDGE101.4+H2020:
-  COURSE: DDGE101.4
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Ingénieurs Canada – L'ingénierie durable"
-
-course-v1:PolyMtl+SDES101.4+H2020:
-  COURSE: SDES101.4
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Engineers Canada – Sustainability in practice"
-
 course-v1:EDDEC+EC-101.3+H2020:
   COURSE: EC-101.3
   ORG: EDDEC
