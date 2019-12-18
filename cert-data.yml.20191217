@@ -1,28 +1,4 @@
 ---
-course-v1:PolyMtl+CHE101.7+H2020:
-  COURSE: CHE101.7
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "La chimie, en route vers le génie I"
-
-course-v1:PolyMtl+CHE102.5+H2020:
-  COURSE: CHE102.5
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "La chimie, en route vers le génie II"
-
-course-v1:PolyMtl+EMI101.5+H2020:
-  COURSE: EMI101.5
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Électricité et magnétisme, un duo de génie I"
-
-course-v1:PolyMtl+DDI101.9+H2020:
-  COURSE: DDI101.9
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "L'ingénieur, source de solutions durables"
-
 course-v1:HEC+3126EHQ02+A2019:
   COURSE: 3126EHQ02
   ORG: HEC
