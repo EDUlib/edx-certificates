@@ -1,28 +1,4 @@
 ---
-course-v1:HEC+ENT-102.5+A2019:
-  COURSE: ENT-102.5
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Réussir son démarrage d'entreprise"
-
-course-v1:HEC+SC-101.3+H2020:
-  COURSE: SC-101.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Comprendre les états financiers"
-
-course-v1:HEC+SC-102.5+H2020:
-  COURSE: SC-102.5
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Décisions financières et budgétaires"
-
-course-v1:PolyMtl+EMI102.1+H2020:
-  COURSE: EMI102.1
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "Électricité et magnétisme, un duo de génie II"
-
 course-v1:PolyMtl+CHE101.7+H2020:
   COURSE: CHE101.7
   ORG: PolyMtl
