@@ -1,22 +1,4 @@
 ---
-course-v1:HEC+3126EHQ04+A2019:
-  COURSE: 3126EHQ04
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer et diriger dans le secteur de l'énergie"
-
-course-v1:HEC+3126EHQ03+A2019:
-  COURSE: 3126EHQ03
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer son équipe en contexte de changements"
-
-course-v1:UMontreal+BRAMS.3+H2020:
-  COURSE: BRAMS.4
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Neurosciences : audition, langage et musique"
-
 course-v1:HEC+ENT-102.5+A2019:
   COURSE: ENT-102.5
   ORG: HEC
