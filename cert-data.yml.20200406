@@ -1,10 +1,4 @@
 ---
-course-v1:PolyMtl+DDI101.10+P2020:
-  COURSE: DDI101.10
-  ORG: PolyMtl
-  LONG_ORG: PolyMtl
-  LONG_COURSE: "L'ingénieur, source de solutions durables"
-
 course-v1:EDDEC+EC-101.4+P2020:
   COURSE: EC-101.4
   ORG: EDDEC
