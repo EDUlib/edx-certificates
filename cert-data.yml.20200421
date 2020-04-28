@@ -1,16 +1,4 @@
 ---
-course-v1:UMontreal+RENARD102+H2020:
-  COURSE: RENARD102
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Transfert de connaissances 2 - La note de politique"
-
-course-v1:UMontreal+RENARD101+H2020:
-  COURSE: RENARD101
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Transfert de connaissances 1 - Introduction"
-
 course-v1:PolyMtl+DDI101.10+P2020:
   COURSE: DDI101.10
   ORG: PolyMtl
