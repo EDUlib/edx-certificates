@@ -1,124 +1,4 @@
 ---
-course-v1:HEC+3126EHQ04.5+2019:
-  COURSE: 3126EHQ04.5
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer et diriger dans le secteur de l'énergie"
-
-course-v1:HEC+3126EHQ04.4+2019:
-  COURSE: 3126EHQ04.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer et diriger dans le secteur de l'énergie"
-
-course-v1:HEC+3126EHQ04.3+2019:
-  COURSE: 3126EHQ04.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer et diriger dans le secteur de l'énergie"
-
-course-v1:HEC+3126EHQ04.2+2019:
-  COURSE: 3126EHQ04.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer et diriger dans le secteur de l'énergie"
-
-course-v1:HEC+3126EHQ04+A2019:
-  COURSE: 3126EHQ04
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer et diriger dans le secteur de l'énergie"
-
-course-v1:HEC+3126EHQ03.5+2019:
-  COURSE: 3126EHQ03.5
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer son équipe en contexte de changements"
-
-course-v1:HEC+3126EHQ03.4+2019:
-  COURSE: 3126EHQ03.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer son équipe en contexte de changements"
-
-course-v1:HEC+3126EHQ03.3+2019:
-  COURSE: 3126EHQ03.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer son équipe en contexte de changements"
-
-course-v1:HEC+3126EHQ03.2+2019:
-  COURSE: 3126EHQ03.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer son équipe en contexte de changements"
-
-course-v1:HEC+3126EHQ03+A2019:
-  COURSE: 3126EHQ03
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Gérer son équipe en contexte de changements"
-
-course-v1:HEC+3126EHQ02.5+2019:
-  COURSE: 3126EHQ02.5
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Habiletés politiques dans les organisations"
-
-course-v1:HEC+3126EHQ02.4+2019:
-  COURSE: 3126EHQ02.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Habiletés politiques dans les organisations"
-
-course-v1:HEC+3126EHQ02.3+2019:
-  COURSE: 3126EHQ02.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Habiletés politiques dans les organisations"
-
-course-v1:HEC+3126EHQ02.2+2019:
-  COURSE: 3126EHQ02.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Habiletés politiques dans les organisations"
-
-course-v1:HEC+3126EHQ02+A2019:
-  COURSE: 3126EHQ02
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Habiletés politiques dans les organisations"
-
-course-v1:HEC+3126EHQ01.5+2019:
-  COURSE: 3126EHQ01.5
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
-course-v1:HEC+3126EHQ01.4+2019:
-  COURSE: 3126EHQ01.4
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
-course-v1:HEC+3126EHQ01.3+2019:
-  COURSE: 3126EHQ01.3
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
-course-v1:HEC+3126EHQ01.2+2019:
-  COURSE: 3126EHQ01.2
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
-course-v1:HEC+3126EHQ01+A2019:
-  COURSE: 3126EHQ01
-  ORG: HEC
-  LONG_ORG: HEC
-  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
-
 course-v1:UMontreal+BIB-BONICI+H2020:
   COURSE: BIB-BONICI
   ORG: UMontreal
@@ -166,6 +46,18 @@ course-v1:UMontreal+PRC-Brest.2+H2020:
   ORG: UMontreal
   LONG_ORG: UMontreal
   LONG_COURSE: "Processus de raisonnement clinique"
+
+course-v1:HEC+3126EHQ04+A2019:
+  COURSE: 3126EHQ04
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Gérer et diriger dans le secteur de l'énergie"
+
+course-v1:HEC+3126EHQ03+A2019:
+  COURSE: 3126EHQ03
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Gérer son équipe en contexte de changements"
 
 course-v1:UMontreal+BRAMS.3+H2020:
   COURSE: BRAMS.4
@@ -221,6 +113,12 @@ course-v1:PolyMtl+DDI101.9+H2020:
   LONG_ORG: PolyMtl
   LONG_COURSE: "L'ingénieur, source de solutions durables"
 
+course-v1:HEC+3126EHQ02+A2019:
+  COURSE: 3126EHQ02
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Habiletés politiques dans les organisations"
+
 course-v1:PolyMtl+DDGE101.4+H2020:
   COURSE: DDGE101.4
   ORG: PolyMtl
@@ -245,6 +143,30 @@ course-v1:UMontreal+DSG-101.1+A2019:
   LONG_ORG: UMontreal
   LONG_COURSE: "Trans.diversité"
 
+course-v1:HEC+3126EHQ01.5+2019:
+  COURSE: 3126EHQ01.5
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
+
+course-v1:HEC+3126EHQ01.4+2019:
+  COURSE: 3126EHQ01.4
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
+
+course-v1:HEC+3126EHQ01.3+2019:
+  COURSE: 3126EHQ01.3
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
+
+course-v1:HEC+3126EHQ01.2+2019:
+  COURSE: 3126EHQ01.2
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
+
 course-v1:UMontreal+DFC-AIOPIO-1+P2019:
   COURSE: DFC-AIOPIO-1
   ORG: UMontreal
@@ -262,6 +184,12 @@ course-v1:UMontreal+MAMBOV3.1+A2019:
   ORG: UMontreal
   LONG_ORG: UMontreal
   LONG_COURSE: "Contrôle de la mammite et qualité du lait"
+
+course-v1:HEC+3126EHQ01+2019:  
+  COURSE: 3126EHQ01
+  ORG: HEC
+  LONG_ORG: HEC
+  LONG_COURSE: "Courage managérial: composer avec des défis difficiles"
 
 course-v1:IVADO+SDS-230+E2019:
   COURSE: SDS-230
