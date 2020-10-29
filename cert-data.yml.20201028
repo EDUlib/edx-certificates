@@ -1,10 +1,4 @@
 ---
-course-v1:UMontreal+MEES-COMPENUPM1+A2020:
-  COURSE: MEES-COMPENUPM1
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "La compétence numérique, l’affaire de tous"
-
 course-v1:PolyMtl+DDGE101.5+A2020:
   COURSE: DDGE101.5
   ORG: PolyMtl
