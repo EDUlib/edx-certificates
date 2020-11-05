@@ -572,9 +572,6 @@ class CertificateGen(object):
         if 'PH207x' in self.course:
             styleOpenSans.fontSize = 18
             styleOpenSans.leading = 21
-        elif 'MEES-COMPENUM1' in self.course:
-            styleOpenSans.fontSize = 16
-            styleOpenSans.leading = 10
         elif '4.01x' in self.course:
             styleOpenSans.fontSize = 20
             styleOpenSans.leading = 10
