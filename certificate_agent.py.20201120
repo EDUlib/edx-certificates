@@ -1,12 +1,13 @@
-from argparse import ArgumentParser, RawTextHelpFormatter
-import logging.config
 import json
-import sys
+import logging.config
 import os
+import sys
 import time
+from argparse import ArgumentParser, RawTextHelpFormatter
+
 import settings
-from openedx_certificates.queue_xqueue import XQueuePullManager
 from gen_cert import CertificateGen
+from openedx_certificates.queue_xqueue import XQueuePullManager
 
 logging.config.dictConfig(settings.LOGGING)
 log = logging.getLogger('certificates: ' + __name__)
@@ -84,9 +85,7 @@ def main():
                     template_pdf,
                     aws_id=args.aws_id,
                     aws_key=args.aws_key,
-                    ##### removing encode for Python 3 and EDUlib
-                    #####long_course=course_name.encode('utf-8'),
-                    long_course=course_name,
+                    long_course=course_name.encode('utf-8'),
                     issued_date=issued_date,
                 )
                 last_course = course_id
@@ -107,23 +106,15 @@ def main():
             log.info(
                 "Generating certificate for {username} ({name}), "
                 "in {course_id}, with grade {grade}".format(
-                    ##### Removing encode for Python 3 and EDUlib
-                    #####username=username.encode('utf-8'),
-                    #####name=name.encode('utf-8'),
-                    #####course_id=course_id.encode('utf-8'),
-                    username=username,
-                    name=name,
-                    course_id=course_id,
+                    username=username.encode('utf-8'),
+                    name=name.encode('utf-8'),
+                    course_id=course_id.encode('utf-8'),
                     grade=grade,
                 )
             )
             (download_uuid,
              verify_uuid,
-             download_url) = cert.create_and_upload(name, grade=grade, designation=designation)
-            ##### Removing encode for Python 3 and EDUlib
-            #####(download_uuid,
-            ##### verify_uuid,
-            ##### download_url) = cert.create_and_upload(name.encode('utf-8'), grade=grade, designation=designation)
+             download_url) = cert.create_and_upload(name.encode('utf-8'), grade=grade, designation=designation)
 
         except Exception as e:
             # global exception handler, if anything goes wrong
