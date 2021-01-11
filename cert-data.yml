@@ -1,4 +1,16 @@
 ---
+course-v1:PolyMtl+EMI103.1+H2021:
+  COURSE: EMI103.1
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "Électricité et magnétisme, un duo de génie III"
+
+course-v1:PolyMtl+EMI102.2+H2021:
+  COURSE: EMI102.2
+  ORG: PolyMtl
+  LONG_ORG: PolyMtl
+  LONG_COURSE: "Électricité et magnétisme, un duo de génie II"
+
 course-v1:PolyMtl+DDI101.11+H2021:
   COURSE: DDI101.11
   ORG: PolyMtl
