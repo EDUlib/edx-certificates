@@ -1,10 +1,4 @@
 ---
-course-v1:UMontreal+FAS-CONTAM+H2021:
-  COURSE: FAS-CONTAM
-  ORG: UMontreal
-  LONG_ORG: UMontreal
-  LONG_COURSE: "Les contaminants émergents"
-
 course-v1:HEC+3126EHQ8-3+2020:
   COURSE: 3126EHQ8-3
   ORG: HEC
